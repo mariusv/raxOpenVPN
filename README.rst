@@ -11,7 +11,7 @@ GPL version 2 licensed easy-rsa tools and example configuration copied
 from OpenVPN project, Copyright (C) 2002-2010 OpenVPN Technologies, Inc.
 See OPENVPN-COPYING.txt
 
-Other parts Copyright 2012 Viljo Viitanen <viljo.viitanen@iki.fi>
+Other parts Copyright 2013 Marius Voila <myself@mariusv.com>
 Licensed under GPL version 2. 
 
 INSTALLATION INSTRUCTIONS
