@@ -91,7 +91,7 @@ fi
 ( cd $OPENVPN/easy-rsa || { echo "Cannot cd into $OPENVPN/easy-rsa, aborting!"; exit 1; }
   [ -d keys ] && { echo "easy-rsa/keys directory already exists, aborting!"; exit 1; }
   cp vars myvars
-  sed -i -e 's/Fort-Funston/$ME/' -e 's/SanFrancisco/Simple OpenVPN server/' myvars
+  sed -i -e 's/London/$ME/' -e 's/London/Simple OpenVPN server/' myvars
   . ./myvars
   ./clean-all
   ./build-dh
