@@ -75,6 +75,7 @@ Some notes
 
 Clients are configured to use Google public dns servers when
 the vpn connection is active: https://developers.google.com/speed/public-dns/
+Also can use opendns if you want.
 
 Only one client certificate is generated, but it can be used simultaneously
 with multiple connections. To generate more client certificates, see the
