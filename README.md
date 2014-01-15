@@ -1,9 +1,7 @@
 Setup OpenVPN server for Rackspace Cloud
 =======================================================
 
-Script is tested on Debian 6/7 , Ubuntu 12.04/13.04, CentOS 6.0/6.2/6.3
-
-User documentation is quite lacking currently.
+Script is tested on CentOS 6.0/6.2/6.3
 
 Patches preferably as Github pull requests are welcome!
 
@@ -25,11 +23,11 @@ INSTALLATION INSTRUCTIONS
 
 - Install zip ::
 
-    sudo yum -y install zip
+        sudo yum -y install zip
 
 - Enable the EPEL repository. When writing this, it's as simple as: ::
 
-    sudo rpm -iv http://download.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm
+        sudo rpm -iv http://download.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm
 
   If the link does not work, see instructions at http://fedoraproject.org/wiki/EPEL
 
@@ -39,10 +37,10 @@ INSTALLATION INSTRUCTIONS
 
 - Download the repo zip file and run the installation script: ::
 
-    wget https://github.com/mariusv/raxOpenVPN/archive/master.zip
-    unzip master.zip
-    cd raxOpenVPN
-    sudo sh setup.sh
+        wget https://github.com/mariusv/raxOpenVPN/archive/master.zip
+        unzip master.zip
+        cd raxOpenVPN
+        sudo sh setup.sh
 
 - Let the script run. Take note if the server external ip address
   detection is succesful. If it's not, you need to edit the
@@ -66,6 +64,11 @@ INSTALLATION INSTRUCTIONS
     network-manager-openvpn-gnome .
 
 - Enjoy your very own VPN!
+
+**TO DO**
+
+- Support for Debian/Ubuntu
+- Distribution check
 
 Some notes
 ==========
