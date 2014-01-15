@@ -1,5 +1,5 @@
 #!/bin/sh
-#    Setup RaxOpenVPN server for Rackspace Cloud Debian/Ubuntu and Centos
+#    Setup RaxOpenVPN server for Rackspace Cloud Centos
 #    Copyright (C) 2013 Marius Voila <myself@mariusv.com>
 #
 #    This program is free software; you can redistribute it and/or modify
@@ -99,11 +99,7 @@ fi
   ./pkitool --server myserver
   ./pkitool client1-$ME
 )
-#for more client certificates:
-# cd easy-rsa
-# . ./myvars
-# ./pkitool [unique-client-name]
-#by default this server allows multiple connections per client certificate
+
 
 #generate the client config file
 
